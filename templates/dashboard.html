@@ -1,53 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8" />
   <title>Admin Dashboard</title>
-  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
 </head>
 <body>
-  <div class="container">
-    <h2>Edit Portfolio</h2>
-
-    {% if message %}
-      <p style="color: green;">{{ message }}</p>
-    {% endif %}
-
-    <form method="POST" enctype="multipart/form-data">
-      <label>Bio:</label><br>
-      <textarea name="bio" rows="4" required>{{ data.bio }}</textarea><br><br>
-
-      <label>GitHub:</label><br>
-      <input type="url" name="github" value="{{ data.github }}" required><br>
-
-      <label>LinkedIn:</label><br>
-      <input type="url" name="linkedin" value="{{ data.linkedin }}" required><br>
-
-      <label>Twitter:</label><br>
-      <input type="url" name="twitter" value="{{ data.twitter }}" required><br>
-
-      <label>Instagram:</label><br>
-      <input type="url" name="instagram" value="{{ data.instagram }}" required><br>
-
-      <label>Change Profile Photo:</label><br>
-      <input type="file" name="photo"><br><br>
-
-      <hr>
-      <h3>Change Password</h3>
-
-      <label>Old Password:</label><br>
-      <input type="password" name="old_password"><br>
-
-      <label>New Password:</label><br>
-      <input type="password" name="new_password"><br>
-
-      <label>Confirm New Password:</label><br>
-      <input type="password" name="confirm_password"><br><br>
-
-      <button type="submit">Save Changes</button>
-    </form>
-
-    <p><a href="/logout">Logout</a></p>
-  </div>
+  <h2>Edit Portfolio Content</h2>
+  <form method="POST">
+    <textarea name="bio" rows="4" cols="50">{{ data.bio }}</textarea><br>
+    GitHub: <input type="text" name="github" value="{{ data.github }}"><br>
+    LinkedIn: <input type="text" name="linkedin" value="{{ data.linkedin }}"><br>
+    Twitter: <input type="text" name="twitter" value="{{ data.twitter }}"><br>
+    Instagram: <input type="text" name="instagram" value="{{ data.instagram }}"><br>
+    <button type="submit">Save</button>
+  </form>
+  <a href="/logout">Logout</a>
 </body>
 </html>
