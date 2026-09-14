@@ -54,7 +54,7 @@ export default function Navbar() {
             Aman <span className="text-cyan-accent">Kumar</span>
           </span>
           <span className="inline-flex items-center px-2 py-0.5 rounded text-[10px] font-medium bg-cyan-950/80 text-cyan-300 border border-cyan-500/30">
-            BCA &apos;25
+            BCA 2024–2027
           </span>
         </Link>
 
