@@ -10,8 +10,9 @@ A personal developer portfolio website engineered for **Aman Kumar** (BCA Candid
 
 ---
 
-## 🚀 Live Demo & Deployment
-- **Deployment Platform**: Vercel (Production Ready)
+## 🚀 Live Website & Deployment
+- **Live Website**: [https://aman-kumar-portfolio-silk.vercel.app](https://aman-kumar-portfolio-silk.vercel.app)
+- **Deployment Platform**: Vercel (Edge CDN, SSL Active)
 - **GitHub Repository**: [https://github.com/aman25-2006/aman25-2006.github.io](https://github.com/aman25-2006/aman25-2006.github.io)
 - **Local Dev Server**: `http://localhost:3000`
 
