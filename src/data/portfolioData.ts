@@ -56,10 +56,10 @@ export const candidateData = {
     "High-performing Computer Applications scholar (74.13% aggregate) passionate about designing robust backend architectures, distributed cloud systems, and generative AI workflows. Recognized as an AWS Student Builder Campus Leader and Google Student Ambassador, with proven startup execution funded by the Government of Bihar and hackathon leadership at SIH 2026.",
 
   targetTracks: [
-    "TCS Ignite & Smart Hiring",
-    "Full-Stack Software Development",
+    "Software Engineering & SDE Roles",
+    "Full-Stack Web & Backend Engineering",
     "Cloud Architecture (AWS / Azure / GCP)",
-    "Applied Generative AI & Automation",
+    "Applied Generative AI & System Design",
   ],
 
   metrics: [
@@ -93,15 +93,29 @@ export const candidateData = {
     degree: "Bachelor of Computer Applications (BCA)",
     institution: "L.N. Mishra College of Business Management (LNMCBM)",
     location: "Muzaffarpur, Bihar",
-    duration: "2022 - 2025 (5th Semester)",
-    aggregate: "74.13% Aggregate",
+    duration: "2024 - 2027 (5th Semester)",
+    aggregate: "74.13% Aggregate (through 3rd Sem)",
+    schooling: [
+      {
+        level: "Senior Secondary (Class XII), CBSE (2024)",
+        school: "Ambika Bhawani Public School",
+        score: "67%",
+      },
+      {
+        level: "Secondary School (Class X), CBSE (2022)",
+        school: "Ambika Bhawani Public School",
+        score: "78%",
+      },
+    ],
     keyCoursework: [
       "Data Structures & Algorithms (DSA)",
       "Object-Oriented Programming (OOP in C++ & Java)",
       "Database Management Systems (DBMS & RDBMS)",
+      "Python with AI & Machine Learning",
       "Operating Systems & Process Scheduling",
-      "Computer Networks & Protocols",
-      "Software Engineering & SDLC",
+      "Computer Networks & Network Security",
+      "Web Development & Systems Architecture",
+      "PL/SQL & Database Administration",
     ],
   },
 
@@ -268,7 +282,7 @@ export const candidateData = {
     },
     {
       title: "Microsoft Azure Cloud Practitioner",
-      issuer: "Microsoft Structured Course",
+      issuer: "Microsoft Structured Course (Edunet x AICTE)",
       tag: "25-Hour Deep Dive",
       description:
         "In-depth hands-on architectural training covering Azure Virtual Machines, Blob Storage, Virtual Networks, Azure Active Directory, and cloud security governance.",
@@ -276,11 +290,27 @@ export const candidateData = {
     },
     {
       title: "Career Essentials in Generative AI",
-      issuer: "IBM SkillsBuild",
+      issuer: "Edunet Foundation x IBM SkillsBuild",
       tag: "AI & Automation",
       description:
         "Foundational and applied mastery of large language models, prompt engineering patterns, ethical AI deployment, and enterprise generative workflow automation.",
       iconName: "cpu",
+    },
+    {
+      title: "Technology Job Simulation",
+      issuer: "Deloitte Australia (Forage)",
+      tag: "Enterprise Simulation",
+      description:
+        "Practical engineering simulation focused on development specifications, cloud architecture analysis, data validation, and security auditing.",
+      iconName: "shield",
+    },
+    {
+      title: "6-Week Python Full Course",
+      issuer: "GeeksforGeeks (GFG)",
+      tag: "Comprehensive Track",
+      description:
+        "In-depth programmatic coverage of Python syntax, object-oriented concepts, memory management, and practical algorithmic implementations.",
+      iconName: "award",
     },
   ] as Certification[],
 
@@ -288,9 +318,9 @@ export const candidateData = {
     {
       role: "AWS Student Builder Campus Leader",
       organization: "L.N. Mishra College of Business Management",
-      period: "2024 - Present",
+      period: "2026 - Present",
       description:
-        "Appointed to spearhead cloud learning initiatives, conducting workshops on AWS Core Services (EC2, S3, RDS, Lambda) for 200+ undergraduate developers.",
+        "Appointed to spearhead cloud learning initiatives, conducting workshops on AWS Core Services (EC2, S3, RDS, Lambda) for undergraduate developers.",
       points: [
         "Mentored peers on fundamental cloud architecture, cost optimization, and IAM best practices",
         "Organized hands-on cloud deployment hackathons and technical bootcamps on campus",
@@ -298,11 +328,11 @@ export const candidateData = {
       badge: "AWS Leader",
     },
     {
-      role: "Google Student Ambassador & Coordinator",
-      organization: "Google Developer Groups & GSA Community",
-      period: "2023 - Present",
+      role: "Google Student Ambassador & GSA Coordinator",
+      organization: "Campus Chapter",
+      period: "2026 - Present",
       description:
-        "Facilitating developer awareness of Google Cloud Platform (Arcade), TensorFlow, and modern web developer ecosystems through structured interactive sessions.",
+        "Facilitating developer awareness of Google Cloud Platform (Arcade), TensorFlow, and modern developer ecosystems through structured interactive sessions.",
       points: [
         "Coordinated campus participation in Google Cloud Arcade skill badges and solution challenges",
         "Bridged industry-relevant developer tooling to academic classroom curriculums",
@@ -310,26 +340,38 @@ export const candidateData = {
       badge: "Google Ambassador",
     },
     {
-      role: "Student Coordinator Head",
-      organization: "Smart India Hackathon (SIH) 2026 - College Cell",
-      period: "2025 - 2026",
+      role: "SIH 2026 Student Coordinator Head",
+      organization: "Smart India Hackathon - College Level",
+      period: "2026 - Present",
       description:
         "Headed the internal screening committee, organizing problem statement analysis, mentorship rounds, and pitch deck refinement for collegiate teams.",
       points: [
         "Led Team 26135 (Skill Saarthi) from inception through submission architecture",
-        "Streamlined project evaluations with senior college faculty and industry advisors",
+        "Coordinating college-level SIH 2026 activities, student communication, team formation, and hackathon support",
       ],
       badge: "SIH Coordinator Head",
     },
     {
-      role: "Founder & Product Lead",
+      role: "Student Ambassador",
+      organization: "Entrepreneurship Cell, IIT Delhi & Internshala Student Partner (ISP)",
+      period: "Roles Completed",
+      description:
+        "Selected as collegiate ambassador representing E-Cell IIT Delhi and Internshala to drive campus entrepreneurship, student technical skill building, and professional development programs.",
+      points: [
+        "Both leadership tenures successfully completed with formal certificates issued",
+        "Organized student outreach campaigns fostering early technical adoption and career planning",
+      ],
+      badge: "IIT Delhi & ISP Ambassador",
+    },
+    {
+      role: "Founder & Product Concept",
       organization: "BrahmaCode (EdTech Startup)",
       period: "2022 - Present",
       description:
-        "Selected under the prestigious Bihar Startup Policy-2022 by Department of Industries, Government of Bihar for seed grant and incubation support.",
+        "Selected under the prestigious Bihar Startup Policy-2022 by Department of Industries, Government of Bihar for seed funding and incubation support.",
       points: [
-        "Drafted financial projections, technical roadmap, and investor pitch deck",
-        "Directly incubated under state technical mentors to build scalable learning software",
+        "Drafted product planning, solution logic, and website development using AI-assisted tools",
+        "Cleared interview round at IIT Patna MSME Idea Hackathon 6.0 (YantraOS) and secured seed funding for BrahmaCode",
       ],
       badge: "Seed Funded Founder",
     },

@@ -75,7 +75,7 @@ export default function Footer() {
             &copy; {currentYear} Aman Kumar. All rights reserved. Muzaffarpur, Bihar, India.
           </p>
           <p className="flex items-center space-x-1">
-            <span>Tailored for TCS Ignite &amp; Software Engineering Roles</span>
+            <span>Open for Software Engineering &amp; Related Tech Roles</span>
           </p>
         </div>
       </div>

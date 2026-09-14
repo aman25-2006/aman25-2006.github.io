@@ -90,7 +90,7 @@ export default function AboutEducation() {
             </div>
           </motion.div>
 
-          {/* TCS Ignite & SWE Alignment Card */}
+          {/* Software Engineer & Industry Readiness Card */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -104,9 +104,9 @@ export default function AboutEducation() {
               </div>
               <div>
                 <h3 className="text-lg font-bold text-white">
-                  TCS Ignite &amp; SDE Alignment
+                  Software Engineer &amp; Industry Readiness
                 </h3>
-                <p className="text-xs text-purple-300">Why I Excel in Structured Engineering Tracks</p>
+                <p className="text-xs text-purple-300">Why I Excel in SDE, Full-Stack &amp; Systems Roles</p>
               </div>
             </div>
 

@@ -41,7 +41,7 @@ export default function Hero() {
             <div className="inline-flex flex-wrap items-center justify-center lg:justify-start gap-2 mb-6">
               <span className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-cyan-500/10 text-cyan-300 border border-cyan-500/30 shadow-sm shadow-cyan-500/10">
                 <span className="w-2 h-2 rounded-full bg-cyan-400 animate-ping mr-1" />
-                <span>Open for TCS Ignite &amp; Software Engineer Roles</span>
+                <span>Open for Software Engineer &amp; Related Roles</span>
               </span>
               <span className="inline-flex items-center space-x-1 px-3 py-1 rounded-full text-xs font-medium bg-purple-electric/10 text-purple-300 border border-purple-electric/30">
                 <MapPin className="w-3 h-3 text-purple-400" />
@@ -76,6 +76,8 @@ export default function Hero() {
 
               <a
                 href={candidateData.resumePath}
+                target="_blank"
+                rel="noopener noreferrer"
                 download="Aman_Kumar_Resume.pdf"
                 className="inline-flex items-center space-x-2 px-6 py-3 rounded-xl font-semibold text-sm bg-slate-800/80 hover:bg-slate-700/80 text-slate-100 border border-slate-700 hover:border-slate-500 hover:scale-[1.02] active:scale-[0.98] transition-all shadow-md"
               >
@@ -139,7 +141,7 @@ export default function Hero() {
                     <p><span className="text-cyan-300">&quot;name&quot;</span>: <span className="text-amber-300">&quot;Aman Kumar&quot;</span>,</p>
                     <p><span className="text-cyan-300">&quot;degree&quot;</span>: <span className="text-amber-300">&quot;BCA (5th Sem, LNMCBM)&quot;</span>,</p>
                     <p><span className="text-cyan-300">&quot;aggregate&quot;</span>: <span className="text-emerald-300">&quot;74.13%&quot;</span>,</p>
-                    <p><span className="text-cyan-300">&quot;track&quot;</span>: <span className="text-amber-300">&quot;TCS Ignite &amp; Software Engineer&quot;</span>,</p>
+                    <p><span className="text-cyan-300">&quot;track&quot;</span>: <span className="text-amber-300">&quot;Software Engineer &amp; Related Roles&quot;</span>,</p>
                     <p><span className="text-cyan-300">&quot;startup&quot;</span>: <span className="text-amber-300">&quot;Founder @ BrahmaCode (Seed Funded)&quot;</span>,</p>
                     <p><span className="text-cyan-300">&quot;hackathon&quot;</span>: <span className="text-purple-300">&quot;SIH 2026 Lead (Skill Saarthi)&quot;</span></p>
                   </div>

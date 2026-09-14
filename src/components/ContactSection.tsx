@@ -61,8 +61,8 @@ export default function ContactSection() {
             Get in <span className="text-gradient-cyan">Touch with Aman</span>
           </h2>
           <p className="mt-4 text-slate-300 text-sm sm:text-base">
-            Actively open for Software Engineering, Full-Stack Developer, and TCS Ignite / Smart
-            Hiring opportunities. Feel free to connect directly via email, phone, or LinkedIn.
+            Actively open for Software Engineering, Full-Stack Development, AI, and Associate Developer
+            opportunities across top tech organizations. Feel free to connect directly via email, phone, or LinkedIn.
           </p>
         </div>
 
@@ -262,7 +262,7 @@ export default function ContactSection() {
                   onChange={(e) =>
                     setFormData({ ...formData, subject: e.target.value })
                   }
-                  placeholder="e.g. TCS Smart Hiring / SDE Role Opportunity"
+                  placeholder="e.g. Software Engineer / SDE-1 / Full-Stack Role Opportunity"
                   className="w-full px-3.5 py-2.5 rounded-xl bg-slate-900 border border-slate-700 text-white text-xs placeholder:text-slate-500 focus:outline-none focus:border-cyan-400 transition-colors"
                 />
               </div>
